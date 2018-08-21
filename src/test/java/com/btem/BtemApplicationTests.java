@@ -1,4 +1,4 @@
-package com.yimo;
+package com.btem;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
