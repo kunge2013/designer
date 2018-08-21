@@ -1,0 +1,16 @@
+package com.yimo;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class BtemApplicationTests {
+
+	@Test
+	public void contextLoads() {
+	}
+
+}
