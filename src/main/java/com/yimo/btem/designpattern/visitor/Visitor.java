@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.visitor;
 
 /**
  * 为该对象结构中ConcreteElement的每一个类声明一个Visit操作
- * 
- * @author liu yuning
- *
  */
 public abstract class Visitor {
 

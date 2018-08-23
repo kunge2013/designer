@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.adapter;
 
 /**
  * 需要适配的类
- * 
- * @author liu yuning
- *
  */
 public class Adaptee {
 

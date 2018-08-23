@@ -4,9 +4,6 @@ import java.util.Random;
 
 /**
  * Util for String
- * 
- * @author liu yuning
- *
  */
 public class StringUtil {
 

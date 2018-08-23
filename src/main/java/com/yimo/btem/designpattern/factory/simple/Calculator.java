@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.factory.simple;
 
 /**
  * 使用工厂方法生成实例完成运算操作
- * 
- * @author liu yuning
- *
  */
 public class Calculator {
     public static void main(String[] args) {

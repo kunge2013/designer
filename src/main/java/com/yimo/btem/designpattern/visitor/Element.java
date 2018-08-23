@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.visitor;
 
 /**
  * 定义一个accept操作，它以一个访问者为参数
- * 
- * @author liu yuning
- *
  */
 public abstract class Element {
     public abstract void accept(Visitor visitor);

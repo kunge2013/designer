@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.proxy;
 
 /**
  * 真实实体类
- * 
- * @author liu yuning
- *
  */
 public class RealSubject implements Subject {
 

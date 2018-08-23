@@ -4,9 +4,6 @@ import java.util.List;
 
 /**
  * 用来声明执行操作的接口
- * 
- * @author liu yuning
- *
  */
 public abstract class Command {
 

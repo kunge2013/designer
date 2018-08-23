@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.proxy;
 
 /**
  * 代理类
- * 
- * @author liu yuning
- *
  */
 public class Proxy implements Subject {
 

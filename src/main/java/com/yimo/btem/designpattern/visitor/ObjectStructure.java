@@ -5,9 +5,6 @@ import java.util.List;
 
 /**
  * 提供一个高层的接口以允许访问者访问它的元素
- * 
- * @author liu yuning
- *
  */
 public class ObjectStructure {
 

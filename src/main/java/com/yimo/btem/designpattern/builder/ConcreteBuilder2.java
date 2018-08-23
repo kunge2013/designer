@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.builder;
 
 /**
  * 具体建造者类，建造的对象时Product，通过build使Product完善
- * 
- * @author liu yuning
- *
  */
 public class ConcreteBuilder2 extends Builder {
 

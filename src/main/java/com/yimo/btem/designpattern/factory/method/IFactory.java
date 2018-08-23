@@ -8,9 +8,6 @@ import com.yimo.btem.designpattern.factory.simple.OperationSub;
 
 /**
  * 工厂接口
- * 
- * @author liu yuning
- *
  */
 public interface IFactory {
     public Operation createOperation();

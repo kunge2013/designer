@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.command;
 
 /**
  * 要求该命令执行这个请求
- * 
- * @author liu yuning
- *
  */
 public class Invoker {
 

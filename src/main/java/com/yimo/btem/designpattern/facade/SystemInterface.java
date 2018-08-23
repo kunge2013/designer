@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.facade;
 
 /**
  * “系统”接口，只是标记接口，暂无任何意义
- * 
- * @author liu yuning
- *
  */
 public interface SystemInterface {
 

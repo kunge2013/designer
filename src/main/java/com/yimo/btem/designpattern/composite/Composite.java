@@ -7,9 +7,6 @@ import com.yimo.btem.util.StringUtil;
 
 /**
  * 定义有枝节点行为，用来存储子部件
- * 
- * @author liu yuning
- *
  */
 public class Composite extends Component {
     private List<Component> children = new ArrayList<Component>();

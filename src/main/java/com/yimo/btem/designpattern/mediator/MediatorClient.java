@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.mediator;
 
 /**
  * 客户端
- * 
- * @author liu yuning
- *
  */
 public class MediatorClient {
     public static void main(String[] args) {

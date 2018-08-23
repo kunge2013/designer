@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.observer;
 
 /**
  * 具体观察者
- * 
- * @author liu yuning
- *
  */
 public class ConcreteObserver extends Observer {
 

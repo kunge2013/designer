@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.adapter;
 
 /**
  * 适配器客户端
- * 
- * @author liu yuning
- *
  */
 public class AdapterClient {
 

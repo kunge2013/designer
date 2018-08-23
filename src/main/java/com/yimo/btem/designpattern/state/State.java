@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.state;
 
 /**
  * 抽象状态类
- * 
- * @author liu yuning
- *
  */
 public abstract class State {
     public abstract void handle(Context context);

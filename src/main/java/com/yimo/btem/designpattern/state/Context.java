@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.state;
 
 /**
  * Context类，维护一个ConcreteState子类的实例，这个实例定义当前的状态
- * 
- * @author liu yuning
- *
  */
 public class Context {
     private State state;

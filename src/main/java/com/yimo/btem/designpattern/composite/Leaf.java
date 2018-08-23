@@ -4,9 +4,6 @@ import com.yimo.btem.util.StringUtil;
 
 /**
  * Leaf在组合中表示叶节点对象，叶节点没有子节点
- * 
- * @author liu yuning
- *
  */
 public class Leaf extends Component {
 

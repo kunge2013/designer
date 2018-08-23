@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.factory.simple;
 
 /**
  * 乘法类
- * 
- * @author liu yuning
- *
  */
 public class OperationMul extends Operation {
 

@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.iterator;
 
 /**
  * 迭代器客户端
- * 
- * @author liu yuning
- *
  */
 public class IteratorClient {
     public static void main(String[] args) {

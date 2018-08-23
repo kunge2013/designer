@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.mediator;
 
 /**
  * 抽象中介者类
- * 
- * @author liu yuning
- *
  */
 public abstract class Mediator {
 

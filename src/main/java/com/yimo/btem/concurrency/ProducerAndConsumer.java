@@ -11,9 +11,6 @@ import java.util.concurrent.TimeUnit;
  * 3. 定义多个生产者与消费者同时执行；4. 虽然有多个生产者，但是必须确保生产出的产品唯一，即 product+id 唯一；
  * 
  * 设计上如有问题，欢迎拍砖~
- * 
- * @author liu yuning
- *
  */
 
 class Product {

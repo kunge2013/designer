@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.observer;
 
 /**
  * 观察者模式客户端代码
- * 
- * @author liu yuning
- *
  */
 public class ObserverClient {
     public static void main(String[] args) {

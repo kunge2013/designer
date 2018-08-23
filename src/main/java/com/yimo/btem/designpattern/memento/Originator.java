@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.memento;
 
 /**
  * 发起人（Originator） 类
- * 
- * @author liu yuning
- *
  */
 public class Originator {
 

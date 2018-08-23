@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.factory.simple;
 
 /**
  * 除法类
- * 
- * @author liu yuning
- *
  */
 public class OperationDiv extends Operation {
 

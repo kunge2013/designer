@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.responsibilitychain;
 
 /**
  * 向链上的具体处理者对象提交请求
- * 
- * @author liu yuning
- *
  */
 public class Client {
     public static void main(String[] args) {

@@ -4,9 +4,6 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 线程的生命周期，演示线程的六种状态： NEW RUNNABLE TIMED_WAITING WAITING BLOCKED TERMINATED
- * 
- * @author liu yuning
- *
  */
 
 class Block {

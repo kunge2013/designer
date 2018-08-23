@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.visitor;
 
 /**
  * 客户端
- * 
- * @author liu yuning
- *
  */
 public class VisitorClient {
 

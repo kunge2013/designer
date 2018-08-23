@@ -4,9 +4,6 @@ import java.util.HashMap;
 
 /**
  * 享元工厂
- * 
- * @author liu yuning
- *
  */
 public class FlyWeightFactory {
     private HashMap<String, FlyWeight> flyWeights = new HashMap<String, FlyWeight>();

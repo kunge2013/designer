@@ -11,9 +11,6 @@ import com.yimo.btem.designpattern.factory.simple.OperationSub;
 
 /**
  * 利用反射改造简单工厂模式，去掉分支判断的逻辑
- * 
- * @author liu yuning
- *
  */
 public class OperationFactory {
     private static Map<String, Class<?>> allOperationMaps = new HashMap<String, Class<?>>();

@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.singleton;
 
 /**
  * 单例模式客户端
- * 
- * @author liu yuning
- *
  */
 public class SingletonClient {
     public static void main(String[] args) {

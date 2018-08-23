@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.flyweight;
 
 /**
  * 所有具体享元类的超类，接受并作用于外部状态
- * 
- * @author liu yuning
- *
  */
 public abstract class FlyWeight {
 

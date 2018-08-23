@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.builder;
 
 /**
  * 建造客户端
- * 
- * @author liu yuning
- *
  */
 public class BuilderClient {
 

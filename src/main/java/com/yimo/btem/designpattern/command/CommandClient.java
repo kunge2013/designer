@@ -5,9 +5,6 @@ import java.util.List;
 
 /**
  * 创建一个具体命令对象并设定它的接收者
- * 
- * @author liu yuning
- *
  */
 public class CommandClient {
 

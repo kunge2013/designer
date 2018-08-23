@@ -4,9 +4,6 @@ import com.yimo.btem.designpattern.factory.simple.Operation;
 
 /**
  * 工厂方法客户端
- * 
- * @author liu yuning
- *
  */
 public class FactoryClient {
     public static void main(String[] args) {

@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.builder;
 
 /**
  * 具体建造者类
- * 
- * @author liu yuning
- *
  */
 public class ConcreteBuilder1 extends Builder {
 

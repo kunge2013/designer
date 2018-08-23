@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.composite;
 
 /**
  * 客户端。通过Component接口操作组合部件的对象
- * 
- * @author liu yuning
- *
  */
 public class CompositeClient {
 

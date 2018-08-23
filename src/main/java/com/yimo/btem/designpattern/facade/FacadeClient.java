@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.facade;
 
 /**
  * 外观类客户端
- * 
- * @author liu yuning
- *
  */
 public class FacadeClient {
     public static void main(String[] args) {

@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.bridge;
 
 /**
  * 客户端
- * 
- * @author liu yuning
- *
  */
 public class BridgeClient {
     public static void main(String[] args) {

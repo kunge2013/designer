@@ -1,9 +1,6 @@
 package com.yimo.btem.designpattern.bridge;
 
 /**
- * 
- * @author liu yuning
- *
  */
 public abstract class Implementor {
 

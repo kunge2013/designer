@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.template;
 
 /**
  * 具体类B
- * 
- * @author liu yuning
- *
  */
 public class ConcreteClassB extends AbstractTemplate {
 

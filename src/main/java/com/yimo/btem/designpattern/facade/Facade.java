@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.facade;
 
 /**
  * 外观类，它需要了解所有的子系统的方法或属性，进行组合，以备外界调用
- * 
- * @author liu yuning
- *
  */
 public class Facade {
     SubSystemOne subSystemOne;

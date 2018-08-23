@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.proxy;
 
 /**
  * 代理客户端
- * 
- * @author liu yuning
- *
  */
 public class ProxyClient {
     public static void main(String[] args) {

@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.memento;
 
 /**
  * 备忘录（Memento）类
- * 
- * @author liu yuning
- *
  */
 public class Memento {
     private String state;

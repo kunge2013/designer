@@ -9,9 +9,6 @@ import java.io.Serializable;
 
 /**
  * 简历类
- * 
- * @author liu yuning
- *
  */
 public class Resume implements Cloneable, Serializable {
     private static final long serialVersionUID = -4410449301166191440L;

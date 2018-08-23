@@ -1,9 +1,6 @@
 package com.yimo.btem.designpattern.bridge;
 
 /**
- * 
- * @author liu yuning
- *
  */
 public abstract class Abstraction {
     protected Implementor implementor;// 桥接模式的关键，使得Abstraction聚合Implementor

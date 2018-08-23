@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.flyweight;
 
 /**
  * 客户端
- * 
- * @author liu yuning
- *
  */
 public class FlyWeightClient {
     public static void main(String[] args) {

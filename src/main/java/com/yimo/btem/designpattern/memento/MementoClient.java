@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.memento;
 
 /**
  * 客户端
- * 
- * @author liu yuning
- *
  */
 public class MementoClient {
 

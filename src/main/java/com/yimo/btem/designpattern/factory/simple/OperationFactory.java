@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.factory.simple;
 
 /**
  * 操作类工厂类
- * 
- * @author liu yuning
- *
  */
 public class OperationFactory {
     public static Operation createOperation(char operator) {

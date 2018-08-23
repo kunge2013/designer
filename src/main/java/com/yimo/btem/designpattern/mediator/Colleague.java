@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.mediator;
 
 /**
  * 抽象同事类
- * 
- * @author liu yuning
- *
  */
 public abstract class Colleague {
 

@@ -2,9 +2,6 @@ package com.yimo.btem.designpattern.responsibilitychain;
 
 /**
  * 处理请求的接口
- * 
- * @author liu yuning
- *
  */
 public abstract class Handler {
 
