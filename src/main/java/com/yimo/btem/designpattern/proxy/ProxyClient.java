@@ -8,7 +8,7 @@ package com.yimo.btem.designpattern.proxy;
  */
 public class ProxyClient {
     public static void main(String[] args) {
-	Proxy proxy = new Proxy();
-	proxy.request();
+	    Proxy proxy = new Proxy();
+	    proxy.request();
     }
 }
