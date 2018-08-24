@@ -8,7 +8,7 @@ public abstract class Handler {
     protected Handler successor;
 
     public void setSuccessor(Handler successor) {
-	this.successor = successor;
+    this.successor = successor;
     }
 
     public abstract void handleRequest(int request);
@@ -19,11 +19,11 @@ class ConcreteHandlerA extends Handler {
 
     @Override
     public void handleRequest(int request) {
-	if (request >= 0 && request <= 10) {
-	    System.out.println(this.getClass().getName() + "处理了请求" + request);
-	} else if (successor != null) {
-	    successor.handleRequest(request);
-	}
+    if (request >= 0 && request <= 10) {
+        System.out.println(this.getClass().getName() + "处理了请求" + request);
+    } else if (successor != null) {
+        successor.handleRequest(request);
+    }
     }
 
 }
@@ -32,11 +32,11 @@ class ConcreteHandlerB extends Handler {
 
     @Override
     public void handleRequest(int request) {
-	if (request > 10 && request <= 20) {
-	    System.out.println(this.getClass().getName() + "处理了请求" + request);
-	} else if (successor != null) {
-	    successor.handleRequest(request);
-	}
+    if (request > 10 && request <= 20) {
+        System.out.println(this.getClass().getName() + "处理了请求" + request);
+    } else if (successor != null) {
+        successor.handleRequest(request);
+    }
     }
 
 }
@@ -45,11 +45,11 @@ class ConcreteHandlerC extends Handler {
 
     @Override
     public void handleRequest(int request) {
-	if (request > 20 && request <= 30) {
-	    System.out.println(this.getClass().getName() + "处理了请求" + request);
-	} else if (successor != null) {
-	    successor.handleRequest(request);
-	}
+    if (request > 20 && request <= 30) {
+        System.out.println(this.getClass().getName() + "处理了请求" + request);
+    } else if (successor != null) {
+        successor.handleRequest(request);
+    }
     }
 
 }

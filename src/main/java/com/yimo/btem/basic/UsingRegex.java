@@ -12,13 +12,13 @@ import java.util.regex.Pattern;
  */
 public class UsingRegex {
     public static void main(String[] args) {
-	String regexSample = "\\w+";
-	String inputString = "123";
+    String regexSample = "\\w+";
+    String inputString = "123";
 
-	Pattern pattern = Pattern.compile(regexSample);
-	Matcher matcher = pattern.matcher(inputString);
+    Pattern pattern = Pattern.compile(regexSample);
+    Matcher matcher = pattern.matcher(inputString);
 
-	System.out.println(matcher.matches());
+    System.out.println(matcher.matches());
 
     }
 }

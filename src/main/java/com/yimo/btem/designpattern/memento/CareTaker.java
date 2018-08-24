@@ -8,11 +8,11 @@ public class CareTaker {
     private Memento memento;
 
     public Memento getMemento() {
-	return memento;
+    return memento;
     }
 
     public void setMemento(Memento memento) {
-	this.memento = memento;
+    this.memento = memento;
     }
 
 }

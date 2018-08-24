@@ -16,12 +16,12 @@ public class Singleton {
     }
 
     public static Singleton getInstance() {
-	// 饱汉式
-	// if (instance == null) {
-	// instance = new Singleton();
-	// }
+    // 饱汉式
+    // if (instance == null) {
+    // instance = new Singleton();
+    // }
 
-	return instance;
+    return instance;
     }
 
 }

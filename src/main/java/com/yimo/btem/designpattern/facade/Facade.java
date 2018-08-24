@@ -10,24 +10,24 @@ public class Facade {
     SubSystemFour subSystemFour;
 
     public Facade() {
-	subSystemOne = new SubSystemOne();
-	subSystemTwo = new SubSystemTwo();
-	subSystemThree = new SubSystemThree();
-	subSystemFour = new SubSystemFour();
+    subSystemOne = new SubSystemOne();
+    subSystemTwo = new SubSystemTwo();
+    subSystemThree = new SubSystemThree();
+    subSystemFour = new SubSystemFour();
     }
 
     public void methodA() {
-	System.out.println("方法组A:");
+    System.out.println("方法组A:");
 
-	subSystemOne.methodOne();
-	subSystemTwo.methodTwo();
-	subSystemFour.methodFour();
+    subSystemOne.methodOne();
+    subSystemTwo.methodTwo();
+    subSystemFour.methodFour();
     }
 
     public void methodB() {
-	System.out.println("方法组B:");
+    System.out.println("方法组B:");
 
-	subSystemThree.methodThree();
-	subSystemFour.methodFour();
+    subSystemThree.methodThree();
+    subSystemFour.methodFour();
     }
 }

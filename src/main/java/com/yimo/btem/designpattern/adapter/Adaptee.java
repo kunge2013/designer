@@ -6,7 +6,7 @@ package com.yimo.btem.designpattern.adapter;
 public class Adaptee {
 
     public void specificRequest() {
-	System.out.println("特殊的请求！");
+        System.out.println("特殊的请求！");
     }
 
 }

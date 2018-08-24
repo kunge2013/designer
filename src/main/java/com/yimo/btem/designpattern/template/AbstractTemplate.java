@@ -9,9 +9,9 @@ public abstract class AbstractTemplate {
     public abstract void primitiveOperation2();
 
     public void templateMethod() {
-	primitiveOperation1();
-	primitiveOperation2();
-	System.out.println("模板方法结束\n");
+    primitiveOperation1();
+    primitiveOperation2();
+    System.out.println("模板方法结束\n");
     }
 
 }

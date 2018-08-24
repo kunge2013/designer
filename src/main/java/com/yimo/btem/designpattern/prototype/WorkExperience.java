@@ -12,23 +12,23 @@ public class WorkExperience implements Serializable {
     private String workCompany;
 
     public String getWorkDate() {
-	return workDate;
+    return workDate;
     }
 
     public WorkExperience setWorkDate(String workDate) {
-	this.workDate = workDate;
+    this.workDate = workDate;
 
-	return this;
+    return this;
     }
 
     public String getWorkCompany() {
-	return workCompany;
+    return workCompany;
     }
 
     public WorkExperience setWorkCompany(String workCompany) {
-	this.workCompany = workCompany;
+    this.workCompany = workCompany;
 
-	return this;
+    return this;
     }
 
 }

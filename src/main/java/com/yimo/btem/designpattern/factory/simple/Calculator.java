@@ -5,11 +5,14 @@ package com.yimo.btem.designpattern.factory.simple;
  */
 public class Calculator {
     public static void main(String[] args) {
-		Operation operation;
-		char operator = '+';
-		operation = OperationFactory.createOperation(operator);
-		operation.numberA = 1.2;
-		operation.numberB = 2.3;
-		System.out.println(operation.result());
+        Operation operation;
+        char operator = '+';
+        operation = OperationFactory.createOperation(operator);
+        operation.numberA = 1.2;
+        operation.numberB = 2.3;
+        System.out.println(operation.result());
     }
 }
+
+//Output:
+//3.5

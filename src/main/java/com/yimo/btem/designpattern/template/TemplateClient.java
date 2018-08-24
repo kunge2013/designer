@@ -5,13 +5,13 @@ package com.yimo.btem.designpattern.template;
  */
 public class TemplateClient {
     public static void main(String[] args) {
-	AbstractTemplate abstractTemplate;
+    AbstractTemplate abstractTemplate;
 
-	abstractTemplate = new ConcreteClassA();
-	abstractTemplate.templateMethod();
+    abstractTemplate = new ConcreteClassA();
+    abstractTemplate.templateMethod();
 
-	abstractTemplate = new ConcreteClassB();
-	abstractTemplate.templateMethod();
+    abstractTemplate = new ConcreteClassB();
+    abstractTemplate.templateMethod();
 
     }
 }

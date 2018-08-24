@@ -6,12 +6,12 @@ package com.yimo.btem.designpattern.state;
 public class StateClient {
     public static void main(String[] args) {
 
-	Context context = new Context(new ConcreteStateA());
+    Context context = new Context(new ConcreteStateA());
 
-	context.request();
-	context.request();
-	context.request();
-	context.request();
-	context.request();
+    context.request();
+    context.request();
+    context.request();
+    context.request();
+    context.request();
     }
 }

@@ -5,6 +5,6 @@ package com.yimo.btem.designpattern.adapter;
  */
 public abstract class Target {
     public void request() {
-	System.out.println("普通请求！");
+        System.out.println("普通请求！");
     }
 }

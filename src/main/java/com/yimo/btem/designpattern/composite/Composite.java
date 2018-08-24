@@ -12,27 +12,27 @@ public class Composite extends Component {
     private List<Component> children = new ArrayList<Component>();
 
     public Composite(String name) {
-	super(name);
+    super(name);
     }
 
     @Override
     public void add(Component component) {
-	children.add(component);
+    children.add(component);
     }
 
     @Override
     public void remove(Component component) {
-	children.remove(component);
+    children.remove(component);
     }
 
     @Override
     public void display(int depth) {
-	// 显示其枝节点名称，并对其下级进行遍历
-	System.out.println(StringUtil.repeatableString("-", depth) + this.name);
+    // 显示其枝节点名称，并对其下级进行遍历
+    System.out.println(StringUtil.repeatableString("-", depth) + this.name);
 
-	for (Component component : children) {
-	    component.display(depth + 2);
-	}
+    for (Component component : children) {
+        component.display(depth + 2);
+    }
 
     }
 

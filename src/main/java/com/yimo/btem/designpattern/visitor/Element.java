@@ -11,7 +11,7 @@ class ConcreteElementA extends Element {
 
     @Override
     public void accept(Visitor visitor) {
-	visitor.visitConcreteElementA(this);
+    visitor.visitConcreteElementA(this);
     }
 
 }
@@ -20,7 +20,7 @@ class ConcreteElementB extends Element {
 
     @Override
     public void accept(Visitor visitor) {
-	visitor.visitConcreteElementB(this);
+    visitor.visitConcreteElementB(this);
     }
 
 }

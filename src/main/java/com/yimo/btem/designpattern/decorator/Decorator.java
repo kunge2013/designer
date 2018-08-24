@@ -8,11 +8,11 @@ public abstract class Decorator extends Component {
     protected Component component;
 
     public Component getComponent() {
-	return component;
+    return component;
     }
 
     public void setComponent(Component component) {
-	this.component = component;
+    this.component = component;
     }
 
     @Override
@@ -46,7 +46,7 @@ class ConcreteDecoratorB extends Decorator {
     }
 
     public void addedBehavior() {
-	    System.out.print("B中的新增行为 ");
+        System.out.print("B中的新增行为 ");
     }
 }
 
@@ -56,5 +56,4 @@ class ConcreteDecoratorC extends Decorator {
         super.operation();
         System.out.println("C没有特殊行为 " + "具体装饰对象C的操作");
     }
-
 }

@@ -8,23 +8,23 @@ import com.yimo.btem.util.StringUtil;
 public class Leaf extends Component {
 
     public Leaf(String name) {
-	super(name);
+    super(name);
     }
 
     @Override
     public void add(Component component) {
-	System.out.println("cannot add to a leaf");
+    System.out.println("cannot add to a leaf");
     }
 
     @Override
     public void remove(Component component) {
-	System.out.println("cannot remove from a leaf");
+    System.out.println("cannot remove from a leaf");
     }
 
     @Override
     public void display(int depth) {
-	// 通过“-”的数目显示级别
-	System.out.println(StringUtil.repeatableString("-", depth) + this.name);
+    // 通过“-”的数目显示级别
+    System.out.println(StringUtil.repeatableString("-", depth) + this.name);
     }
 
 }
