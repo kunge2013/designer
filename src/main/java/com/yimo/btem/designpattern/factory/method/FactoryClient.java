@@ -7,13 +7,12 @@ import com.yimo.btem.designpattern.factory.simple.Operation;
  */
 public class FactoryClient {
     public static void main(String[] args) {
-    IFactory operFactory = new DivFactory();
-    Operation operation = operFactory.createOperation();
-
-    operation.numberA = 3.4;
-    operation.numberB = 4.5;
-
-    System.out.println(operation.result());
-
+        IFactory operFactory = new DivFactory();
+        Operation operation = operFactory.createOperation();
+        operation.numberA = 3.4;
+        operation.numberB = 4.5;
+        System.out.println(operation.result());
     }
 }
+//Output:
+//0.7555555555555555
