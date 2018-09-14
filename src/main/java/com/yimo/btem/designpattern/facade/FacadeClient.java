@@ -15,3 +15,11 @@ public class FacadeClient {
     facade.methodB();
     }
 }
+//Output：
+//方法组A:
+//子系统方法一
+//子系统方法二
+//子系统方法四
+//方法组B:
+//子系统方法三
+//子系统方法四
