@@ -11,15 +11,15 @@ public class Product {
 
     // 添加产品部件
     public void add(String part) {
-    parts.add(part);
+        parts.add(part);
     }
 
     // 列举所有的产品部件
     public void show() {
-    System.out.println("---产品 创建---");
+        System.out.println("---产品 创建---");
 
-    for (String part : parts) {
-        System.out.println(part);
-    }
+        for (String part : parts) {
+            System.out.println(part);
+        }
     }
 }

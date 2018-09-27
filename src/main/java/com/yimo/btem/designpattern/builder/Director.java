@@ -6,7 +6,7 @@ package com.yimo.btem.designpattern.builder;
 public class Director {
 
     public void construct(Builder builder) {
-    builder.buildPartA();
-    builder.buildPartB();
+        builder.buildPartA();
+        builder.buildPartB();
     }
 }
